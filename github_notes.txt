@@ -1,0 +1,65 @@
+
+Comandos Git
+============
+Para inicilizar el git en el directorio del proyecto
+git init
+
+Para ver los estados del git
+git status
+
+Para agregar un archivo al Staging area
+git add "nombre_archivo"
+
+Para configurar un correo de manera global
+git config --global user.email "paul.angulo.anyosa@gmail.com"
+
+Para configurar un nombre de manera global
+git config --global user.name "Cristian Angulo"
+
+Para realizar un commit y establecer un nombre corto
+git commit -m "información_commit"
+
+Para agregar el url del repositorio
+git remote add origin "url_git"
+
+Para conocer el url del repositorio
+git remote -v
+
+Para enviar los cambios al repositorio
+git push -u origin master
+
+Para ver los registros de commit
+git log
+
+Para clonar un repositorio remoto
+git clone "url_git"
+
+Para crear una rama usamos el comando 
+git branch -b "nombre-rama"
+
+Para listar las rammas
+git branch -a
+
+Para cambiar de rama usamos
+git checkout "nombre-rama"
+
+Para eliminar una rama de manera local
+git branch -d "nombre_rama"
+
+Para eliminar una rama de manera remota
+git push origin --delete "nombre_rama"
+
+Para subir una rama al repositorio remoto 
+git push origin "nombre-rama"
+
+Para etiquetar un commit
+git tag "etiqueta" "hash_commit"
+
+Para actualizar nuestro repositorio local al commit más nuevo
+git pull
+
+Para comparar un archivo con otro
+git diff
+
+Para actualizar URL repositorio
+git remote set-url origin "URL_nueva"
